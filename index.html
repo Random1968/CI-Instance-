@@ -8,7 +8,17 @@
         <link rel="stylesheet" type="text/css" href="style.css">
 		
 		<script type="text/JavaScript">
+		function Redirect(){
+			window.location="https://www.jetbrains.com/teamcity/specials/teamcity/teamcity.html?gclid=EAIaIQobChMIt_fQt7Lb3QIV0sqyCh2xUwEJEAAYAiAAEgLIM_D_BwE&gclsrc=aw.ds&dclid=CIHnoLuy290CFVaKGQodzIYJOg";
+		}
 		
+		function Redirect1(){
+			window.location="https://jenkins.io/download/";
+		}
+		
+		function Redirect2(){
+			window.location="https://travis-ci.org/";
+		}
 		
 		</script>
 	
@@ -38,7 +48,10 @@
         
         <p>
             <b>Continuous integration (CI)</b> is a software development practice of regularly integrating your code changes into a shared code repository. Typically, this would happen at least once or even several times a day (depending on the number of code commits) and this practice encourages committing small changes more often over committing large changes infrequently. Each commit triggers a build during which tests are run that help to identify if anything was broken by the changes.</p>
-       
+       	<input type="button" value="Travis CI" onclick="Redirect2()"/>
+	<input type="button" value="Jenkins Download" onclick="Redirect1()"/>
+	<input type="button" value="TeamCity Download" onclick="Redirect()"/>
+    
     </body>
 
 </html>
