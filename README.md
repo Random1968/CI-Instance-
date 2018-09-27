@@ -1,2 +1,2 @@
 # CI-Instance-
-An example of CI with Github and Jenkins.
+A basic description of CI with Github and Jenkins.
